@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Tyler Coolidge's Resume</title>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <!-- import the webpage's stylesheet add bootstrap 4.4-->
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+         crossorigin="anonymous"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+      />
+      <link rel="stylesheet" href="./style.css" />
+
+      <!-- import the webpage's javascript file -->
+   </head>
+   <body>
+      <div class="container">
+         <div
+            class="row"
+            style="margin-top: 35px; text-align: center; display: block;"
+         >
+            <img
+               class="img-responsive img-circle"
+               src="https://cdn.glitch.com/58c03406-3453-4656-883d-50e30b73e7d6%2FIMG_1983%20(1).JPG?v=1588530907951"
+               style="display: inline;"
+               alt="personal image"
+            />
+            <h1 class="h1-size" style="display: inline;">
+               Tyler Coolidge
+            </h1>
+         </div>
+         <!-- add three or more job experiences with drop down menu-->
+         <div class="row">
+            <!--practice columns-->
+            <!--containes toggle images-->
+            <div class="col-1">
+               <img
+                  src="https://cdn.glitch.com/58c03406-3453-4656-883d-50e30b73e7d6%2Flock-locked.svg?v=1588632919175"
+                  width="20px;"
+                  style="margin-top: 54px;"
+                  class="lock"
+               />
+               <img
+                  src="https://cdn.glitch.com/58c03406-3453-4656-883d-50e30b73e7d6%2Flock-unlocked.svg?v=1588632907944"
+                  width="20px;"
+                  style="margin-top: 54px; display: none;"
+                  class="unlock"
+               />
+            </div>
+
+            <div class="col-11">
+               <h3 class="mt-5 mb-3 carls-jr">
+                  Carl's Jr.
+               </h3>
+               <p class="text-muted" style="display: none;" id="text1">
+                  (Oct 2016 - April 2017) <br />
+                  Worked as cashier and drive-thru while exceling in a
+                  fast-paced environment.
+               </p>
+            </div>
+            <!--containes toggle images 2-->
+            <div class="col-1">
+               <img
+                  src="https://cdn.glitch.com/58c03406-3453-4656-883d-50e30b73e7d6%2Flock-locked.svg?v=1588632919175"
+                  width="20px;"
+                  style="margin-top: 7px;"
+                  class="lock2"
+               />
+               <img
+                  src="https://cdn.glitch.com/58c03406-3453-4656-883d-50e30b73e7d6%2Flock-unlocked.svg?v=1588632907944"
+                  width="20px;"
+                  style="margin-top: 7px; display: none;"
+                  class="unlock2"
+               />
+            </div>
+
+            <div class="col-11">
+               <h3 class="mb-3 direct-response">
+                  Direct Response Pros Inc.
+               </h3>
+               <p class="text-muted" style="display: none;" id="text2">
+                  (Nov 2017 - present) <br />
+                  Worked as graphic designer for marketing advertisements,
+                  developed proficient skills using Microsoft Excel and Adobe
+                  Photoshop.
+               </p>
+            </div>
+            <!--containes toggle images 3-->
+            <div class="col-1">
+               <img
+                  src="https://cdn.glitch.com/58c03406-3453-4656-883d-50e30b73e7d6%2Flock-locked.svg?v=1588632919175"
+                  width="20px;"
+                  style="margin-top: 7px;"
+                  class="lock3"
+               />
+               <img
+                  src="https://cdn.glitch.com/58c03406-3453-4656-883d-50e30b73e7d6%2Flock-unlocked.svg?v=1588632907944"
+                  width="20px;"
+                  style="margin-top: 7px; display: none;"
+                  class="unlock3"
+               />
+            </div>
+            <div class="col-11">
+               <h3 class="coin-cloud">
+                  Coin Cloud
+               </h3>
+               <p class="text-muted" style="display: none;" id="text3">
+                  (Sept 2019 - present) <br />
+                  Currently working as customer service representative while
+                  gaining three months of experience working as an Operations
+                  Assistant.
+               </p>
+            </div>
+         </div>
+      </div>
+
+      <!--adding email request form-->
+      <form>
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <h3 class="mt-5">
+                     Contact Me
+                  </h3>
+               </div>
+               <!--professional request radio button-->
+               <div class="col-12">
+                  <div class="custom-control custom-radio">
+                     <input
+                        type="radio"
+                        id="pro-request"
+                        name="customRadio"
+                        class="custom-control-input"
+                        checked
+                     />
+                     <label class="custom-control-label" for="pro-request"
+                        >Professional request</label
+                     >
+                  </div>
+                  <div class="custom-control custom-radio">
+                     <input
+                        type="radio"
+                        id="per-request"
+                        name="customRadio"
+                        class="custom-control-input"
+                     />
+                     <label class="custom-control-label" for="per-request"
+                        >Personal request</label
+                     >
+                  </div>
+               </div>
+
+               <!--text form-->
+               <div class="mb-2 mt-2 col-12">
+                  <textarea
+                     id="Email-request"
+                     rows="5"
+                     placeholder=" Type here"
+                  ></textarea>
+               </div>
+
+               <!--checkbox-->
+               <div class="col-12">
+                  <div class="custom-control custom-checkbox">
+                     <input
+                        id="robot-check"
+                        type="checkbox"
+                        name="robo"
+                        class="custom-control-input is-invalid"
+                     />
+                     <label class="custom-control-label" for="robot-check">
+                        Check to prove you are not a robot.</label
+                     >
+                  </div>
+               </div>
+
+               <!-- email button-->
+               <div class="col-12">
+                  <button
+                     id="email-submit"
+                     class="btn btn-success float-right mt-2 mb-2"
+                     disabled
+                  >
+                     Email professional request
+                  </button>
+               </div>
+            </div>
+         </div>
+      </form>
+
+      <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+      <div
+         class="glitchButton"
+         style="position: fixed; top: 20px; right: 20px;"
+      ></div>
+      <script
+         src="https://code.jquery.com/jquery-3.5.0.min.js"
+         integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+         crossorigin="anonymous"
+      ></script>
+      <script src="./script.js" defer></script>
+      <script src="https://button.glitch.me/button.js"></script>
+   </body>
+</html>

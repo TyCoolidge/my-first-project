@@ -1,0 +1,75 @@
+body {
+   background-image: url("https://us.123rf.com/450wm/hakkiarslan/hakkiarslan1606/hakkiarslan160600252/59435084-abstract-perspective-background-with-white-grey-tones.jpg?ver=6");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   font-family: garamond-bold;
+}
+
+button:disabled {
+   cursor: not-allowed;
+}
+
+textarea {
+   width: 100%;
+}
+
+.img-circle {
+   max-width: 100px;
+   max-height: 100px;
+   border-color: black;
+   border-style: solid;
+   border-width: 5px;
+   border-radius: 50%;
+   vertical-align: middle;
+}
+
+.h1-size {
+   font-size: 30px;
+}
+
+/*-shrink image for later*/
+
+@media screen and (max-width: 360px) {
+   .img-circle {
+      max-width: 75px;
+      max-height: 75px;
+   }
+   .h1-size {
+      font-size: 20px;
+   }
+
+   .lock,
+   .lock2,
+   .lock3,
+   .unlock,
+   .unlock2,
+   .unlock3 {
+      width: 14px;
+      height: 14px;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .img-circle {
+      max-width: 140px;
+      max-height: 140px;
+   }
+   .h1-size {
+      font-size: 42px;
+   }
+}
+.custom-checkbox label,
+.custom-radio label,
+h3 {
+   cursor: pointer;
+}
+
+.lock,
+.lock2,
+.lock3,
+.unlock,
+.unlock2,
+.unlock3 {
+   cursor: pointer;
+}
